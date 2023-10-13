@@ -6,5 +6,5 @@ curl -s https://raw.githubusercontent.com/huskyctf/CaptureTheFlag/main/start.sh 
 ```
 All port TCP SYN scan:
 ```bash
-sudo nmap -v -n -sS -T4 -p- $IP -oG nmap/allport-tcp-syn
+sudo nmap -v -n -sS -p- $IP -oG nmap/allport-tcp-syn
 ```
